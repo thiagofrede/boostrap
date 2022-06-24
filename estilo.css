@@ -1,0 +1,14 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+/*header*/
+
+/*main*/
+body{
+    background: rgb(0,0,36);
+    background: linear-gradient(90deg, rgba(0,0,36,0.9037815809917717) 0%, rgba(121,9,69,1) 36%, rgba(173,0,255,1) 95%);
+}
+#olu{
+    background-color: white;
+}
