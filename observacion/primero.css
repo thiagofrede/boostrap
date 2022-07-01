@@ -1,0 +1,28 @@
+/*A*/
+
+/*B*/
+body{
+    background-color: white;
+}
+/*M*/
+main{
+    background-color: white;
+}
+.card-img-top{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    margin: left 10px; ;
+}
+.t{
+    font-family: 'Splash', cursive;
+
+   
+}
+.card-img-top{
+    display: block;
+    margin: 0 auto;
+}
+.h{
+    color: rgb(255, 0, 0);
+}
