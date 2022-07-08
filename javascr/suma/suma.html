@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container d-flex justify-content-center p-5 shadow-lg p-3 mb-5 bg-body rounded w-50 " style="margin-top: 100px;">
+        <div class="row d-flex justify-content-center  " >
+            <div class="col ">
+            
+                    <h1 class="d-flex justify-content-center " >
+                        Suma de dos numeros
+                    </h1>
+                </div>
+                <div class="row">
+                    <div class="col d-flex justify-content-center" >
+                        <button  style="width: 600px; height: 50px;" type="button" class="btn btn-primary">
+                            resultado <span id="elemento" class="badge text-bg-secondary"></span>
+                          </button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+
+                      
+                            <div class="mb-3 ">
+                                <label for="exampleInputEmail1" class="form-label" id="num1">Numero 1 </label>
+                                <input type="number" min="0" class="form-control" id="exampleInputEmail1"
+                                    aria-describedby="emailHelp">
+
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputPassword1" class="form-label" id="num2">Numero 2 </label>
+                                <input type="number" class="form-control " min="0" id="exampleInputPassword1">
+                            </div>
+                        
+                            <button id="suma"  class="btn btn-primary">sumar</button>
+                       
+                    </div>
+                </div>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+        <script src="suma.js"></script>
+</body>
+
+</html>

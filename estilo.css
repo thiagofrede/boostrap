@@ -3,7 +3,9 @@
     margin: 0;
 }
 /*header*/
-
+header{
+    background-color: black;
+}
 /*main*/
 body{
     background: rgb(0,0,36);

@@ -11,3 +11,18 @@ body{
 /*C*/
 
 /*D*/
+.donas{
+    width: 100%;
+    height: 275px;
+    padding-right: 2px;
+}
+
+.card-body{
+    margin: 15px;
+    background: #F2D9B8;
+    
+                    
+}
+.card{
+    background-color: #F2D9B8;
+}
